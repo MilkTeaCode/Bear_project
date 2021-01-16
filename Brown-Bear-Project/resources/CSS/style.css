@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --Navigation-- */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15.5%;
+}
+
+#blog_discription {
+  font-size: 1.2em;
+  color: #f0efeb;
+  margin-bottom: 1.5em;
+}
+
+.nav_links li {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.nav_links li a {
+  text-decoration: none;
+  padding: 0px 10px;
+  color: #875236;
+}
+
+.nav_links li a {
+  transition: all 0.5s ease 0s;
+}
+
+.nav_links li a:hover {
+  transition: all 0.5s ease 0s;
+  color: #a5a58d;
+}
+
+/* Hero Section Styling */
+#baer_hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* Background img */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(/Brown-Bear-Project/resources/resources/images/Freddy.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero_title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6em;
+  color: #f0efeb;
+}
+/* Hero Button Styles */
+
+.cta {
+  border: none;
+  border-radius: 6em;
+  background-color: #a5a58d;
+  color: #f0efeb;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  transition: all 0.6s ease-in-out 0s;
+  background-color: #875236;
+}
+
+/* Body Style */
+
+body html {
+  background: #f0efeb;
+}
+
+/* -- Intro Section -- */
+
+#blog_start {
+  width: 100vw;
+  height: 50vh;
+  margin: 15em 0 6em;
+}
+
+#intro_header,
+.species_header {
+  font-size: 3em;
+  margin-left: 5em;
+}
+
+.intro_description {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1.5em 15em 0;
+  color: #bf805f;
+}
+
+.intro_content {
+  position: relative;
+  left: 15em;
+  width: 25%;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+/* Button CTA */
+
+.wiki_cta {
+  border: none;
+  border-radius: 6em;
+  background-color: #bf805f;
+  color: #f0efeb;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.wiki_cta:hover {
+  transition: all 0.5s ease 0s;
+  background-color: #a5a58d;
+}
+
+/* Freddy Portrait */
+
+.freddy_portrait img {
+  /* Portrait Position */
+  width: 35%;
+  position: relative;
+  bottom: 18.5em;
+  left: 50.5rem;
+
+  /* Portrait Border */
+  border-radius: 2em;
+}
+
+/* Species */
+#species_start {
+  width: 100vw;
+  height: 50vh;
+  background-color: #a5a58d;
+}
+
+.species_header {
+  color: #f0efeb;
+  padding-top: 1.5em;
+}
+
+.species_inner_container {
+  position: relative;
+  left: 15em;
+  padding-top: 25px;
+}
+
+.species_list li {
+  list-style-type: none;
+  color: #f0efeb;
+  line-height: 1.5em;
+}
